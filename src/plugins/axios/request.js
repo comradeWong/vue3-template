@@ -6,7 +6,7 @@
  */
 import axios from 'axios'
 // import qs from 'qs'
-import store from '@/store'
+import store from '../../store'
 
 const urlSearchParams = function(data) {
   const params = new URLSearchParams()
